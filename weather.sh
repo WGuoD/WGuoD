@@ -1,1 +1,1 @@
-wget -O wttr.in/guangzhou.png
+curl -O wttr.in/guangzhou.png
