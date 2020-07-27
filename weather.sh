@@ -1,0 +1,1 @@
+curl -o README.md wttr.in/guangzhou
