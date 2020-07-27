@@ -16,6 +16,14 @@ jobs:
         run: bash ./weather.sh
       - name: 'Get Date'
         run: echo "::set-env name=REPORT_DATE::$(TZ=':Asia/guangzhou' date '+%Y-%m-%d %T')"
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.1.0
+        with:
+          description: |
+            ![Weather](https://github.com/WGuoD/guangzhou.png)
+          footer: |
+            ![DarkSoul](https://s1.ax1x.com/2020/07/25/aSmpe1.gif)
+          list_most_recent: 2
       - uses: stefanzweifel/git-auto-commit-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
