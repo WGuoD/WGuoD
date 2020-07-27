@@ -20,7 +20,7 @@ jobs:
         uses: cflynn07/github-action-til-autoformat-readme@1.1.0
         with:
           description: |
-            ![Weather](https://github.com/WGuoD/guangzhou.png)
+            ![Weather](https://github.com/WGuoD/WGuoD/blob/master/guangzhou.png)
           footer: |
             ![DarkSoul](https://s1.ax1x.com/2020/07/25/aSmpe1.gif)
           list_most_recent: 2
