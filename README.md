@@ -1,7 +1,7 @@
 # TIL
 > Today I Learned
 
-![Weather](https://github.com/WGuoD/guangzhou.png)
+![Weather](https://github.com/WGuoD/WGuoD/blob/master/guangzhou.png)
 
 
 _0 TILs and counting..._
