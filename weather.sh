@@ -1,1 +1,1 @@
-curl -o README.md wttr.in/guangzhou
+wget -O wttr.in/guangzhou.png
